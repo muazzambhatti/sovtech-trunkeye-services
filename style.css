@@ -1,0 +1,84 @@
+body {
+    font-family: Space Grotesk, sans-serif;
+    background-color: #0f1f3d;
+    /* white-space: pre; */
+}
+
+#content_head {
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin: 20px auto;
+}
+
+#service_types_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin: 0px auto;
+}
+
+.service_type_headings {
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    width: 170px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 15px;
+}
+
+#services_details {
+    margin: 50px auto;
+    width: 1000px;
+    /* border: 1px solid white; */
+}
+.services_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_services_headings {
+    color: #145aff;
+}
+
+.internal_service_headings {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: large;
+    line-height: 30px;
+}
+
+.services_text {
+    width: 450px;
+    color: white;
+}
+
+.list_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0px;
+}
+.tick_icon {
+    position: relative;
+    top: 5px;
+}
+a {
+    color: white;
+    font-size: x-large;
+}
+.hidden {
+    display: none;
+  }
